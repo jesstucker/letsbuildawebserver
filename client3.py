@@ -26,7 +26,7 @@ def main(max_clients, max_conns):
 				sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 				sock.connect(SERVER_ADDRESS)
 				sock.sendall(REQUEST)
-				sock.append(sock)
+				socks.append(sock)
 				print(connection_num)
 				os._exit(0)
 
