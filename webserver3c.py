@@ -1,4 +1,4 @@
-###
+##
 # Concurrent server - webserver3c.py
 #
 # Tested with Python 2, not Python 3 on MacOS
@@ -6,7 +6,7 @@
 # - Child process sleeps for 60 seconds after handling a clients request
 # - Parent and child processes close duplicate descriptors
 #
-###
+##
 import os
 import socket
 import time
